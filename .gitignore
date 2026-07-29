@@ -1,0 +1,17 @@
+# Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+
+# ASP.NET Core
+appsettings.Development.json
+
+# Test results
+TestResults/
