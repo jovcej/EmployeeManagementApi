@@ -36,24 +36,25 @@ Employee
 │       └── Configuration
 │
 ├── Employee.Core
-│   └── Application and Domain Layer
-│       ├── Entities
+│   └── Application Layer
 │       ├── DTOs
 │       ├── Interfaces
 │       ├── Business Logic
 │       └── Validation
+|
+├── Employee.Domain
+│   └── Domain Layer
+│       ├── Entities
+│       ├── Enums
+│       └── Value Objects
 │
 ├── Employee.Infrastructure
 │   └── Infrastructure Layer
 │       ├── Repositories
 │       ├── External Services
-│       └── Implementations
-│
-├── Employee.Data
-│   └── Data Access Layer
-│       ├── DbContext
-│       ├── Entity Configurations
-│       └── Database Setup
+|       └── DbContext
+|       └── Entity Configurations
+|       └── Database Setup
 │
 └── Employee.Tests
     └── Unit Tests
